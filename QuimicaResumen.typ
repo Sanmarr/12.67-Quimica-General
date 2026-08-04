@@ -66,7 +66,7 @@ margin: (
 ) <fig:indice>
 
 #title[
-xx.xx - Materia
+12.67 - Química General
 
 Resumen
 ]
@@ -75,7 +75,6 @@ Resumen
 //  image("files/images/indice/indiceTP3-inv.svg", width: 90%)
 //) <fig:indice>
 
-Ignacio Sammartino
 
 
 //Aca Termina la caratula
@@ -84,7 +83,7 @@ Ignacio Sammartino
     #grid(
       columns: (1fr, auto),
       align: center,
-      [#align(left)[xx.xx - Materia]],
+      [#align(left)[12.67 - Química General]],
       [#align(right)[#image("files/images/indice/itbaSVG.svg", width: 33%)]]
     )
   ],
@@ -97,7 +96,7 @@ Ignacio Sammartino
 #set text(fill: rgb("#000000"))
 
 #set page(numbering: "1 of 1")
-#set heading(numbering: "1 1 1")
+#set heading(numbering: "1. 1. 1 -")
 
 #set page(columns: 2)
 #outline()
