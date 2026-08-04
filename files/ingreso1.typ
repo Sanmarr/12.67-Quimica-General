@@ -4,23 +4,23 @@
 - *Materia*: Todo aquello que tiene masa y ocupa un lugar en el espacio.
 - *Energía*: Capacidad de realizar trabajo y/o transferir calor.
 
-= Transformaciones
+== Transformaciones
 Las transformaciones pueden clasificarse según el intercambio de energía o la alteración de la identidad de la materia:
 
-== Según la Energía
+=== Según la Energía
 - *Endotérmicas*: Aquellas que absorben energía.
 - *Exotérmicas*: Aquellas que liberan energía.
 
-== Según la Identidad
+=== Según la Identidad
 - *Físicas*: No cambia la "identidad de la materia".
 - *Químicas*: Cambia la identidad y composición de la materia (Ej: combustión).
 
-= Propiedades de la Materia
+== Propiedades de la Materia
 - *Intensivas*: No dependen de la cantidad de materia.
 - *Extensivas*: Dependen de la cantidad de materia considerada.
 - *Propiedad Física*: Se observa sin que haya un cambio de composición.
 
-= Estados de Agregación
+== Estados de Agregación
 #table(
   columns: (1fr, 2fr, 1fr),
   inset: 10pt,
@@ -35,17 +35,17 @@ Las transformaciones pueden clasificarse según el intercambio de energía o la 
   image("images/cambios.png", width: 60%)
 ) <fig:cambios>
 
-= Clasificación de la Materia
+== Clasificación de la Materia
 La materia se divide principalmente en dos grandes grupos que pueden separarse por métodos físicos :
 
-== Sustancias
+=== Sustancias
 No cambian de identidad tras una transformación física.
 - *Simples (elementos)*: Un solo tipo de átomo (Ej: $O_2$, $"Fe"$). No se pueden descomponer .
 - *Compuestos*: Combinación de elementos en proporción fija (Ej: $H_2 O$). Se pueden descomponer mediante métodos químicos .
 
-== Mezclas
+=== Mezclas
 - *Homogéneas (Soluciones)*: Iguales propiedades en todos sus puntos. Poseen 1 sola fase .
 - *Heterogéneas*: Sus componentes se pueden distinguir (Ej: Tinta de bolígrafo como suspensión de sólidos dispersos).
 
-= Conceptos Adicionales
+== Conceptos Adicionales
 - *Masa vs. Peso*: La masa representa la cantidad de materia, mientras que el peso es la fuerza de atracción de la Tierra (varía según la distancia).

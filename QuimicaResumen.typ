@@ -66,14 +66,12 @@ margin: (
 ) <fig:indice>
 
 #title[
-12.67 - Química General
-
-Resumen
+12.67 - Química Ingreso
 ]
 
-//#figure(
-//  image("files/images/indice/indiceTP3-inv.svg", width: 90%)
-//) <fig:indice>
+#figure(
+  image("files/images/indice/periodic.svg", width: 110%)
+) <fig:indice>
 
 
 
@@ -83,7 +81,7 @@ Resumen
     #grid(
       columns: (1fr, auto),
       align: center,
-      [#align(left)[12.67 - Química General]],
+      [#align(left)[Química Ingreso]],
       [#align(right)[#image("files/images/indice/itbaSVG.svg", width: 33%)]]
     )
   ],
