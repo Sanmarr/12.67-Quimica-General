@@ -65,8 +65,8 @@ Se da por compartición de pares de electrones entre no metales. Se clasifican s
 - *Dativa (Coordinada)*: Los dos electrones del par compartido son aportados por uno solo de los átomos [6, 8].
 
 == Casos Especiales y Compuestos Poliatómicos
-- **Ion Amonio ($"NH"_4^+$)**: Aunque está formado por no metales, actúa como un catión metálico en uniones iónicas (ej: $"NH"_4 "Cl"$) [9, 10].
-- **Sales de Oxoácidos**: Compuestos como el $"CaCO_3"$ poseen uniones iónicas entre el metal ($"Ca"^{2+}$) y el anión poliatómico ($"CO"_3^{2-}$), pero dentro del anión las uniones entre el no metal y el oxígeno son covalentes [9].
+- **Ion Amonio ($"NH"_4^+$)**: Aunque está formado por no metales, actúa como un catión metálico en uniones iónicas (ej: $"NH"_4 "Cl"$) .
+- **Sales de Oxoácidos**: Compuestos como el $"CaCO_3"$ poseen uniones iónicas entre el metal ($"Ca"^{2+}$) y el anión poliatómico ($"CO"_3^{2-}$), pero dentro del anión las uniones entre el no metal y el oxígeno son covalentes .
 
 //#figure(
 //  image("images/lewis_ejemplos.png", width: 80%),
