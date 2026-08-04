@@ -15,3 +15,6 @@
 
 #pagebreak()
 #include "ingreso6.typ"
+
+#pagebreak()
+#include "ingreso8.typ"
