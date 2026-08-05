@@ -31,19 +31,6 @@ margin: (
   numbering("(1.1)", counter(heading).get().first(), n)
 })
 
-// Customize the reference format
-//#show ref: it => {
-//  let el = it.element
-//  if el != none and el.func() == math.equation {
-//    // Reconstructs "Section.Equation" numbering (e.g., Eq. 1.2)
-//    [Eq. ] + numbering("(1.1)", counter(heading).get().first(), el.numbering().at//(0))
-//  } else {
-//    it
-//  }
-//}
-//Mas configuraciones -------------------------------------------------------------------------
-
-
 
 //Seteo el formato del texto
 #set text(
@@ -76,6 +63,8 @@ Resumen por Ignacio Sammartino
 ) <fig:indice>
 
 
+#let nonum(eq) = math.equation(block: true, numbering: none, eq)
+#set math.equation(numbering: none)
 
 //Aca Termina la caratula
 #set page(
@@ -103,6 +92,9 @@ Resumen por Ignacio Sammartino
 #set page(columns: 1)
 
 
+//#pagebreak()
+//#include "files/repaso.typ"
+
 #pagebreak()
-#include "files/repaso.typ"
+#include "files/EnlaceQuimico.typ"
 
