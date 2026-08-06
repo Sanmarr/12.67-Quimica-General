@@ -102,5 +102,5 @@ margin: (
 
 
 #pagebreak()
-#include "files/ingreso.typ"
+#include "files/ingreso/ingreso.typ"
 

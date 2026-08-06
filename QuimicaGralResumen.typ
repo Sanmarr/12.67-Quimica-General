@@ -84,7 +84,7 @@ Resumen por Ignacio Sammartino
 #set page(columns: 1, fill: rgb("#ffffff"))
 #set text(fill: rgb("#000000"))
 
-#set page(numbering: "1 of 1")
+#set page(numbering: "1 de 1")
 #set heading(numbering: "1. 1. 1 -")
 
 #set page(columns: 2)
@@ -95,6 +95,11 @@ Resumen por Ignacio Sammartino
 //#pagebreak()
 //#include "files/repaso.typ"
 
+#let redbold(body) = text(fill: red)[*#body*]
+
 #pagebreak()
 #include "files/EnlaceQuimico.typ"
+
+#pagebreak()
+#include "files/EstrucuraMolecular.typ"
 
