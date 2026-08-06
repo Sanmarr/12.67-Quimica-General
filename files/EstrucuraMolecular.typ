@@ -5,9 +5,33 @@ Los #highlight[enlaces iónicos no pueden ser el resultado de una reacción *ent
 electronegatividad de estos no es lo suficientemente grande para que ocurra la transferencia 
 de electrones; en su lugar, las #highlight[reacciones entre dos no metales dan lugar a *enlaces covalentes*].
 
+
 #figure(
   image("images/metales.png", width: 60%),
 )<fig:metales>
+
+== Polaridad de la molecula
+La compartición desigual de electrones entre dos átomos con dife
+rente electronegatividad da como resultado un *enlace polar*.
+Para que una molécula sea polar, deben cumplirse las dos condiciones siguientes:
++ Debe haber *al menos* un enlace polar o un par no compartido en el átomo central
++
+  - Los enlaces polares, si hay más de uno, deben tener una distribución que no cancele su polaridad (dipolo de enlace).
+
+  - Si hay dos o más pares no compartidos (o solitarios) en el átomo central, deben tener una distribución que no cancele su polaridad.
+
+#figure(
+  image("images/polar.png", width: 50%),
+  caption: "Primer caso lineal, segundo caso angular"
+)<fig:polar>
+
+#figure(
+  image("images/polar2.png", width: 80%)
+)<fig:polar2>
+
+#figure(
+  image("images/polar3.png", width: 80%)
+)<fig:polar3>
 
 == TRPEV y TEV
 
@@ -38,6 +62,8 @@ A: átomo central\
 B: átomo terminal\
 U: pares libres
 
+== Grupo 2
+
 === $"AB"_2$
 #box(
   stroke: 1pt,
@@ -65,10 +91,7 @@ iguales.
 
 Estos nuevos orbitales que se forman para la unión son #text(fill: red)[*orbitales híbridos*]. Se 
 van a formar usando el orbital 2s y uno de los orbitales 2p; los otros dos 
-orbitales 2p quedarán sin hibridizar (recordar que un orbital es simplemente 
-un lugar en el espacio).
-
-La energía de los orbitales híbridos será intermedia entre las energías de los 
+orbitales 2p quedarán sin hibridizar (recordar que un orbital es simplemente un lugar en el espacio). La energía de los orbitales híbridos será intermedia entre las energías de los 
 orbitales atómicos puros que les dieron origen.
 
 Siempre se necesitan tantos orbitales atómicos puros como orbitales 
@@ -80,13 +103,14 @@ puro s y de uno p.
 )<fig:sp>
 
 #figure(
-  image("images/sp2.png", width: 60%),
-  caption: "interacción entre un orbital sp y p es frontal"
+  image("images/sp2.png", width: 60%)
 )<fig:sp2>
 
 ]
 
 #let r(body) = text(fill: red)[*#body*]
+
+== Grupo 3
 
 === $"AB"_3$
 #box(
@@ -152,6 +176,7 @@ Siempre que se tiene una unión doble o triple, la primera unión es
 
 ]
 
+== Grupo 4
 
 === $"AB"_4$
 
@@ -221,7 +246,7 @@ Orbitales híbridos #r[$"sp"^3$].
 
 
 
-=== $"AB"_3"U"$
+=== $"AB"_2"U"_2$
 
 #box(
   stroke: 1pt,
@@ -252,7 +277,9 @@ La interacción entre un orbital sp3 del O y el orbital s del H es #r[frontal], 
 
 ]
 
-=== $"AB"_3"U"$
+== Grupo 5
+
+=== $"AB"_5$
 
 #box(
   stroke: 1pt,
@@ -273,3 +300,166 @@ Las cinco posiciones no son iguales. Hay tres posiciones ecuatoriales, en la bas
 Los momentos dipolares de la base se anulan entre sí y los de las posiciones axiales entre ellos, la molécula es simétrica y resulta #r[no-polar].
 
 ]
+
+=== $"AB"_4"U"$
+#box(
+  stroke: 1pt,
+  inset: 10pt,
+)[
+
+#figure(
+image("images/ab4u.png", width: 80%),
+)<fig:ab5>
+
+4 pares de electrones enlazantes y 1 par libre, o sea #r[5 zonas de alta densidad electrónica]. Se tiene #r[geometría electrónica bipiramidal trigonal].
+
+Las posiciones no son todas iguales. Si el par libre estuviera en una posición axial, estaría a 90⁰ de tres pares y a 180⁰ de un par más lejano. Si estuviera en una posición ecuatorial, estaría a 120⁰ de dos pares y a 90⁰ de los otros dos. Para tener una separación más grande, y que la repulsión sea mínima el par libre está en posición ecuatorial.  Se tiene #r[geometría molecular sube y baja], tetraédrica distorsionada, oscilante, zigzag o balancín.
+
+Hay un único par de electrones libres, los momentos dipolares no pueden anularse entre sí, 
+la molécula resulta #r[polar]. 
+
+Orbitales híbridos #r[$"sp"^3"d"$].
+
+La interacción entre un orbital $"sp"^3"d"$ del S y un orbital p del F es #r[frontal]
+
+]
+
+=== $"AB"_3"U"_2$
+#box(
+  stroke: 1pt,
+  inset: 10pt,
+)[
+
+#figure(
+image("images/ab3u22.png", width: 80%),
+)<fig:ab3u22>
+
+3 pares de electrones enlazantes y 2 pares libres, o sea #r[5 zonas de alta densidad electrónica]. Se tiene #r[geometría electrónica bipiramidal trigonal].
+
+La repulsión es mínima cuando los pares libres están en posiciones 
+ecuatoriales. Se tiene #r[geometría molecular en forma de T].
+
+Los momentos dipolares no pueden anularse entre sí, la molécula resulta 
+polar.
+
+Orbitales híbridos #r[$"sp"^3"d"$].
+
+La interacción entre un orbital sp3d del I y un orbital p del Cl es #r[frontal].
+
+]
+
+=== $"AB"_2"U"_3$
+#box(
+  stroke: 1pt,
+  inset: 10pt,
+)[
+
+#figure(
+image("images/ab2u3.png", width: 80%),
+)<fig:ab2u3>
+
+2 pares de electrones enlazantes y 3 pares libres, o sea #r[5 zonas de alta densidad electrónica]. Se tiene #r[geometría electrónica bipiramidal trigonal].
+
+La repulsión es mínima cuando los pares libres están en posiciones 
+ecuatoriales. Se tiene geometría molecular lineal.
+
+Los dipolos se cancelan entre sí y la molécula es #r[no-polar].
+
+Orbitales híbridos #r[$"sp"^3"d"$].
+
+La interacción entre un orbital $"sp"^3"d"$ del Xe y un orbital p del F es #r[frontal]
+
+]
+
+== Grupo 6
+
+=== $"AB"_6$
+#box(
+  stroke: 1pt,
+  inset: 10pt,
+)[
+
+#figure(
+image("images/ab6.png", width: 80%),
+)<fig:ab6>
+
+6 pares de electrones enlazantes y no hay pares libres, o sea #r[6 zonas de alta densidad electrónica].
+
+Los pares de electrones se ubican formando dos pirámides unidas por 
+una base cuadrada. Se tiene #r[geometría electrónica y molecular 
+octaédrica].
+
+Las seis posiciones son iguales, con ángulo de enlace de #r[90⁰].
+
+Los momentos dipolares se anulan, la molécula es simétrica y resulta 
+#r[no-polar].
+
+Se necesitan 6 orbitales híbridos, serán uno s, tres p y dos d. Se dará en átomos centrales que se encuentran a partir del período 3. Se tendrán  orbitales híbridos #r[$"sp"^3"d"^2$].
+
+La interacción entre un orbital $"sp"^3"d"^2$ del S y un orbital p del F es #r[frontal]
+
+//#figure(
+//image("images/ab622.png", width: 65%),
+//)<fig:ab622>
+
+
+]
+
+=== $"AB"_5"U"$
+
+#box(
+  stroke: 1pt,
+  inset: 10pt,
+)[
+
+#figure(
+image("images/ab5u.png", width: 80%),
+)<fig:ab5u>
+
+5 pares de electrones enlazantes y 1 par libre, o sea #r[6 zonas de alta densidad electrónica]. Se tiene #r[geometría electrónica octaédrica].
+
+Las seis posiciones son iguales, con ángulo de enlace de #r[90⁰]. Entonces, el par 
+libre puede estar en cualquiera, #r[geometría molecular piramidal cuadrada].
+
+Hay un único par de electrones libre, la molécula no es simétrica y resulta #r[polar].
+
+Orbitales híbridos #r[$"sp"^3"d"^2$].
+
+La interacción entre un orbital $"sp"^3"d"^2$ del I y un orbital p del F es #r[frontal]
+
+]
+
+
+=== $"AB"_4"U"_2$
+
+#box(
+  stroke: 1pt,
+  inset: 10pt,
+)[
+
+#figure(
+image("images/ab4u222.png", width: 80%),
+)<fig:ab4u222>
+
+4 pares de electrones enlazantes y 2 pares libres, o sea #r[6 zonas de alta densidad electrónica]. Se tiene #r[geometría electrónica octaédrica].
+
+Los dos pares libres tienen que estar enfrentados para que la repulsión sea mínima, #r[geometría molecular cuadrada].
+
+Ángulo de enlace de #r[90⁰].
+
+Esta molécula es #r[no-polar] porque los dipolos se anulan.
+
+Orbitales híbridos #r[$"sp"^3"d"^2$].
+
+La interacción entre un orbital $"sp"^3"d"^2$ del Xe y un orbital p del F es #r[frontal]
+
+]
+== Resumen
+
+#figure(
+image("images/resumenABU.png", width: 105%),
+)<fig:resumenABU>
+
+#figure(
+image("images/GeoMolecular.png", width: 100%),
+)<fig:GeoMolecular>
