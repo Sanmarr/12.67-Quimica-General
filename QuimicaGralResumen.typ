@@ -35,7 +35,7 @@ margin: (
 //Seteo el formato del texto
 #set text(
   font: "Linux Biolinum O",
-  size: 14pt,
+  size: 11pt,
   tracking: 0pt, // (Default = 0pt2)
   spacing: 100%,
   fractions: false /* Se rompe por algun motivo con true*/
@@ -82,7 +82,7 @@ Resumen por Ignacio Sammartino
 
 #pagebreak()
 #set page(columns: 1, fill: rgb("#ffffff"))
-#set text(fill: rgb("#000000"))
+#set text(fill: rgb("#000000"), size: 10pt)
 
 #set page(numbering: "1 de 1")
 #set heading(numbering: "1. 1. 1 -")
@@ -102,4 +102,10 @@ Resumen por Ignacio Sammartino
 
 #pagebreak()
 #include "files/EstrucuraMolecular.typ"
+
+#pagebreak()
+#include "files/FuerzasMoleculares.typ"
+
+#pagebreak()
+#include "files/Presion.typ"
 
