@@ -239,3 +239,5 @@ moléculas y átomos]. Sin embargo, son especialmente importantes en las
 #text(weight: "bold", fill: red)[moléculas no polares], ya que en ellas 
 constituyen la principal interacción intermolecular.
 
+Si son muy diferentes las $"M"_"R"$, entonces no puedo comparar... *SÓLO SI TIENEN $"M"_"R"$ SIMILAR COMPARO*, no puedo hacer conclusiones apresuradas
+
