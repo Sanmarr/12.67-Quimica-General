@@ -220,3 +220,8 @@ ahora ejerce la columna se llama
   image("images/pressure.png", width: 45%)
 )
 
+
+
+
+
+

@@ -109,3 +109,15 @@ Resumen por Ignacio Sammartino
 #pagebreak()
 #include "files/Presion.typ"
 
+#pagebreak()
+#include "files/Volatiles.typ"
+
+#pagebreak()
+#include "files/CineticaEquilibrio.typ"
+
+#pagebreak()
+#include "files/EquilibrioQuimico.typ"
+
+#pagebreak()
+#include "files/AcidoBase.typ"
+
