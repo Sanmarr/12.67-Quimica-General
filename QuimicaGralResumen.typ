@@ -121,3 +121,6 @@ Resumen por Ignacio Sammartino
 #pagebreak()
 #include "files/AcidoBase.typ"
 
+#pagebreak()
+#include "files/Hidrolisis.typ"
+

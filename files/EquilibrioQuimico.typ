@@ -4,7 +4,7 @@ En una reacción reversible, los reactivos forman productos y los productos pued
 
 $ a A + b B <-> c C + d D $
 
-El equilibrio es *dinámico*: las reacciones directa e inversa continúan ocurriendo a la misma velocidad. Por eso las concentraciones permanecen constantes, aunque no necesariamente sean iguales. Los equilibrios pueden ser homogéneos o heterogéneos, y moleculares o iónicos.
+El equilibrio es *dinámico*: las reacciones directa e inversa continúan ocurriendo a la misma velocidad. Por eso #highlight[las concentraciones permanecen constantes, aunque no necesariamente sean iguales]. Los equilibrios pueden ser homogéneos o heterogéneos, y moleculares o iónicos.
 
 == Constante de equilibrio
 
@@ -12,7 +12,7 @@ Para concentraciones:
 
 $ K_c = ([C]^c dot [D]^d)/([A]^a dot [B]^b) $
 
-Para especies gaseosas, usando presiones parciales:
+Para *especies gaseosas*, usando presiones parciales:
 
 $ K_p = (p_C^c dot p_D^d)/(p_A^a dot p_B^b) $
 
