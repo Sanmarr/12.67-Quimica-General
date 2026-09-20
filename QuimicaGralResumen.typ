@@ -7,7 +7,7 @@
 )
 
 //Aca hago una Super caratula
-#set page(columns: 1, fill: rgb("444352"),
+#set page(columns: 1, fill: rgb("#335c32"),
 margin: (
   top: 3cm,
   bottom: 2cm,
@@ -117,10 +117,10 @@ Resumen por Ignacio Sammartino
 
 #pagebreak()
 #include "files/EquilibrioQuimico.typ"
+  
+#pagebreak()
+#include "files/AcidoBase2.typ"
 
 #pagebreak()
-#include "files/AcidoBase.typ"
-
-#pagebreak()
-#include "files/Hidrolisis.typ"
+#include "files/Titulacion.typ"
 

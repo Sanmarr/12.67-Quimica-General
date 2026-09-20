@@ -1,20 +1,20 @@
-#include "ingreso/ingreso1.typ"
+#include "ingreso1.typ"
 
 
 #pagebreak()
-#include "ingreso/ingreso2.typ"
+#include "ingreso2.typ"
 
 #pagebreak()
-#include "ingreso/ingreso3.typ"
+#include "ingreso3.typ"
 
 #pagebreak()
-#include "ingreso/ingreso4.typ"
+#include "ingreso4.typ"
 
 #pagebreak()
-#include "ingreso/ingreso5.typ"
+#include "ingreso5.typ"
 
 #pagebreak()
-#include "ingreso/ingreso6.typ"
+#include "ingreso6.typ"
 
 #pagebreak()
-#include "ingreso/ingreso8.typ"
+#include "ingreso8.typ"

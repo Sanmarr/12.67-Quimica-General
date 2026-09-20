@@ -40,7 +40,7 @@ Para una reacción elemental sí puede relacionarse la ley de velocidad con la m
 
 === Leyes integradas
 
-Para $a dot A -> P$, si la ley es $v = k [A]^a = -1/a dot (partial C_A)/ (partial t)$, las formas integradas más usadas son:
+Para $a dot A -> P$, si la ley es $v = k [A]^alpha = -1/a dot (partial [A])/ (partial t)$, las formas integradas más usadas son:
 
 #table(
   columns: 3,
