@@ -175,7 +175,7 @@ Siempre que se tiene una unión doble o triple, la primera unión es
 )<fig:ab2u>
 
 ]
-
+/*
 == Grupo 4
 
 === $"AB"_4$
@@ -454,6 +454,8 @@ Orbitales híbridos #r[$"sp"^3"d"^2$].
 La interacción entre un orbital $"sp"^3"d"^2$ del Xe y un orbital p del F es #r[frontal]
 
 ]
+*/
+
 == Resumen
 
 #figure(

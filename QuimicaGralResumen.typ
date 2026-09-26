@@ -7,7 +7,7 @@
 )
 
 //Aca hago una Super caratula
-#set page(columns: 1, fill: rgb("#335c32"),
+#set page(columns: 1, fill: rgb("#3f553e"),
 margin: (
   top: 3cm,
   bottom: 2cm,
@@ -55,13 +55,15 @@ margin: (
 #title[
 12.67 - Química General
 
-Resumen por Ignacio Sammartino
+Resumen por Ignacio Sammartino \
+
+#text(fill: red)[*Falta corregir*]
 ]
-
+/*
 #figure(
-  image("files/images/indice/periodic.svg", width: 100%)
+  image("files/images/indice/periodic.svg", width: 90%)
 ) <fig:indice>
-
+*/
 
 #let nonum(eq) = math.equation(block: true, numbering: none, eq)
 #set math.equation(numbering: none)
