@@ -93,6 +93,20 @@ Resumen por Ignacio Sammartino \
 #outline()
 #set page(columns: 1)
 
+// heading
+#show heading.where(level: 1): it => {
+  v(0.6em)
+  block(width: 100%, fill: rgb("#235d1a"), inset: 8pt, radius: 3pt,
+    text(fill: white, size: 15pt, weight: "bold", it))
+  v(0.3em)
+}
+
+#show heading.where(level: 2): set text(fill: rgb("#235d1a"), weight: "bold", size: 12pt)
+
+#show heading.where(level: 3): set text(fill: rgb("#235d1a"), weight: "bold", size: 11pt)
+
+//
+
 
 //#pagebreak()
 //#include "files/repaso.typ"
