@@ -57,7 +57,7 @@ margin: (
 
 Resumen por Ignacio Sammartino \
 
-#text(fill: red)[*Falta corregir*]
+2do Parcial
 ]
 /*
 #figure(
@@ -97,8 +97,11 @@ Resumen por Ignacio Sammartino \
 //#pagebreak()
 //#include "files/repaso.typ"
 
-#let redbold(body) = text(fill: red)[*#body*]
 
+
+
+// 1er Parcial
+/* 
 #pagebreak()
 #include "files/EnlaceQuimico.typ"
 
@@ -125,4 +128,10 @@ Resumen por Ignacio Sammartino \
 
 #pagebreak()
 #include "files/Titulacion.typ"
+*/
 
+
+// 2do Parcial
+
+#pagebreak()
+#include "files/Termodinamica.typ"
