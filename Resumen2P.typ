@@ -84,7 +84,7 @@ Resumen por Ignacio Sammartino \
 
 #pagebreak()
 #set page(columns: 1, fill: rgb("#ffffff"))
-#set text(fill: rgb("#000000"), size: 10pt)
+#set text(fill: rgb("#000000"), size: 11pt)
 
 #set page(numbering: "1 de 1")
 #set heading(numbering: "1. 1. 1 -")
@@ -94,16 +94,19 @@ Resumen por Ignacio Sammartino \
 #set page(columns: 1)
 
 // heading
+#set heading(numbering: none)
+
 #show heading.where(level: 1): it => {
+ 
   v(0.6em)
   block(width: 100%, fill: rgb("#235d1a"), inset: 8pt, radius: 3pt,
     text(fill: white, size: 15pt, weight: "bold", it))
   v(0.3em)
 }
 
-#show heading.where(level: 2): set text(fill: rgb("#235d1a"), weight: "bold", size: 12pt)
+#show heading.where(level: 2): set text(fill: rgb("#235d1a"), weight: "bold", size: 14pt)
 
-#show heading.where(level: 3): set text(fill: rgb("#235d1a"), weight: "bold", size: 11pt)
+#show heading.where(level: 3): set text(fill: rgb("#235d1a"), weight: "bold", size: 13pt)
 
 //
 
