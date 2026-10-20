@@ -152,3 +152,9 @@ Resumen por Ignacio Sammartino \
 
 #pagebreak()
 #include "files/Termodinamica.typ"
+
+#pagebreak()
+#include "files/Electroquimica.typ"
+
+#pagebreak()
+#include "files/Precipitacion.typ"
