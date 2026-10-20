@@ -146,7 +146,7 @@ $
 ) <fig:signos>
 
 
-== Entalpía ($H$)
+== Entalpía (kJ)/ Calor de ... (kJ / mol)
 
 #quote[Casi todas las reacciones químicas y los cambios físicos ocurren a presión (generalmente atmosférica) constante]
 #def("Entalpia")[
@@ -270,8 +270,8 @@ Solo hay intercambio de calor y trabajo.
 Parte de un equilibrio con el medio y llega a otro, $P = P_"ext"$:
 
 $   W &= - P_"ext" dot (V_f - V_0) \
-      &= - (n_f dot R T - n_0 dot R T) \ 
-      &= - (n_f - n_0)  dot R T$
+      &= - P_"ext" dot (n_f R T - n_0 R T) \ 
+      &= - Delta n dot R T$
 
 #formula[$ W = - Delta n dot R T $]
 
@@ -296,6 +296,9 @@ $   W &= - P_"ext" dot (V_f - V_0) \
 #formula[$ W = - n_"gas" dot R T $]
 
 == Relacion entre $Delta U$ y $Delta H$
+
+=== Proceso a $P_"cte"$
+
 En un proceso a temperatura y presión constantes, $Delta H = Delta U + P_"ext" dot Delta V$
 
 Sabiendo que $Delta U = Q + W$,
@@ -304,9 +307,20 @@ y sabiendo que $W = - P_"ext" dot Delta V $
 
 Obtenemos:
 
-#formula[$ Delta H = Delta U + P_"ext" dot Delta V$]
+$ Delta H = underbrace(Q + W, Delta U) + P_"ext" dot Delta V = Q - P_"ext" dot Delta V + P_"ext" dot Delta V  = Q$
 
- Es una medida del *contenido calórico* del sistema.
+#formula[$ Q_"P" = Delta H$]
+
+
+=== Proceso a $V_"cte"$
+
+Sabiendo que $Delta U = Q + W$ 
+
+y sabiendo que $W = P_"ext" dot Delta V = 0$
+
+#formula[$Q_V = Delta U$]
+
+
 
 #imp[
 La relación $Delta H = Delta U + P_"ext" dot Delta V$ es válida para todo proceso que tenga lugar a *temperatura* y *presión constantes*. Resulta muy útil en cambios físicos que comprenden cambios de volumen, como expansión o compresión de un gas.  En un gas ideal: $P_"ext" dot Delta V = Delta n dot R T$
@@ -332,6 +346,8 @@ El concepto de espontaneidad tiene una interpretación muy específica en termod
 
 #pagebreak()
 == Calorimetría
+
+La calorimetría es el conjunto de técnicas experimentales que permiten medir la cantidad de calor liberada, absorbida o intercambiada durante una reacción química o un cambio físico.
 
 - *Calor específico* [$c_e$]: calor que hay que dar a 1 g (o 1 mol) para subir su $T$ en 1 °C. Unidad: J/(g·°C) o J/(mol·°C).
 - *Capacidad calorífica* [$C$]: Calor entregado a una determinada masa (o moles) de una sustancia para que su temperatura aumente 1⁰C. 
@@ -376,15 +392,14 @@ $ Q_"reacción" + underbrace(m_"agua" dot c_(e,"agua") dot (T_f - T_2), Q_"agua"
 *Presion Constante* : 
 
 $
-  Q_p = Delta H arrow.r Delta H_"reaccion" = Q_p / m "ó" Q_p / n 
+  Q_p = Delta H arrow.r Delta H_"reaccion" = Q_"reaccion" / m "ó" Q_"reaccion" / n 
 $
 
 *Volumen Constante* : 
 $
-  Q_p = Delta U arrow.r Delta H_"reaccion" = Q_p / m "ó" Q_p / n 
+  Q_p = Delta U arrow.r Delta U_"reaccion" = Q_"reaccion"  / m "ó" Q_"reaccion"  / n 
 $
 
-Finalmente:
 
 $
   Delta H = Delta U +  Delta n dot R T 
@@ -513,9 +528,16 @@ $
 
 == Constante de equilibrio
 
-#formula[$ Delta G = Delta G^0 + R T  dot ln Q $]
+#formula[$ Delta G = Delta G^0 + R T  dot ln [Q]  $]
 
-En equilibrio: $Delta G = 0$ y $Q = K$, entonces
+Acordarse que si 
+
+$
+a dot A + b dot B #sym.arrow.r c dot C + d dot D quad arrow.r quad 
+[Q] = frac([C]^c dot [D]^d,[A]^a dot [B]^b) 
+$
+
+En equilibrio: $Delta G = 0$ y $[Q] = K$, entonces
 
 #formula[$ Delta G^0 = - R T dot ln K quad arrow.double quad K = e^(- (Delta G^0)/(R T)) $]
 
