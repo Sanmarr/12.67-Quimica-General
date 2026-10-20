@@ -270,8 +270,8 @@ Solo hay intercambio de calor y trabajo.
 Parte de un equilibrio con el medio y llega a otro, $P = P_"ext"$:
 
 $   W &= - P_"ext" dot (V_f - V_0) \
-      &= - P_"ext" dot (n_f R T - n_0 R T) \ 
-      &= - Delta n dot R T$
+      &= - (n_f dot R T - n_0 dot R T) \ 
+      &= - (n_f - n_0)  dot R T$
 
 #formula[$ W = - Delta n dot R T $]
 
@@ -304,7 +304,7 @@ y sabiendo que $W = - P_"ext" dot Delta V $
 
 Obtenemos:
 
-#formula[$ Delta H = Delta U + Delta V$]
+#formula[$ Delta H = Delta U + P_"ext" dot Delta V$]
 
  Es una medida del *contenido calórico* del sistema.
 
@@ -527,8 +527,8 @@ $K$ depende de la temperatura. Si el sistema es gaseoso se obtiene $K_P$; si es 
  - *Calor sensible*: Se manifiesta cuando hay cambio de temperatura
  - *Calor latente*: Se manifiesta cuando hay cambio de estado de agregación o reacción química (a $T$ = cte).
 - Calorímetro a: 
- - $P_"cte"$: $q_"reacción" = n dot Delta H_"reacción"$. 
- - $V_"cte"$: $q_"reacción" = n dot Delta U_"reacción"$.
+ - $P_"cte"$: $Q_"reacción" = n dot Delta H_"reacción"$. 
+ - $V_"cte"$: $Q_"reacción" = n dot Delta U_"reacción"$.
 - Criterio de espontaneidad: $Delta G$.
 - Unidades: entropía en J/(mol·K), entalpía en kJ/mol → *conversión de unidades*.
 - $K_P$ cuando hay gases.
