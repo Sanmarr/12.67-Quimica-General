@@ -38,27 +38,34 @@ $ "Cu"^(2+) + 2 e^- arrow.r "Cu" quad quad "(se consumen electrones)" $
 
 $ "Zn" arrow.r "Zn"^(2+) + 2 e^- quad quad "(se generan electrones)" $
 
-La transferencia de electrones se produce sobre una *superficie conductora* (el Zn metálico). *Los electrones no se mueven por la solución* (¡no saben nadar!). El proceso es #redbold[espontáneo ($Delta G < 0$)], pero así no se puede aprovechar la energía como energía eléctrica.
+La transferencia de electrones se produce sobre una *superficie conductora* (el Zn metálico). *Los electrones no se mueven por la solución* . El proceso es #redbold[espontáneo ($Delta G < 0$)], pero así no se puede aprovechar la energía como energía eléctrica.
 
 #def("Celda galvánica (pila)")[Dispositivo armado de tal manera que la energía liberada en una reacción química (espontánea) se transforma en energía eléctrica.]
 
 === Pila de Daniell
 
-#img[Pila de Daniell: electrodo de Zn en ZnSO#sub[4] 1 M, electrodo de Cu en CuSO#sub[4] 1 M, puente salino, voltímetro]
+
+
+#figure(
+  image("/files/images/2P/pila.png", width: 100%)
+) <fig:pila>
 
 Los electrones migran por el *circuito externo* (cable metálico) y así se obtiene la energía eléctrica.
 
+#let rojo = rgb("#F4CCCC")
+#let azul = rgb("#ccd3f4")
+
 - *Electrodos*: superficies donde ocurren las reacciones de oxidación y de reducción. Por extensión, cada *hemicelda* recibe el mismo nombre.
-- *Ánodo*: se produce la *oxidación*. Expulsa electrones, es el polo *(−)*.
-- *Cátodo*: se produce la *reducción*. Atrae electrones, es el polo *(+)*.
+- #highlight(fill: azul)[*Ánodo*: se produce la *oxidación*]. Expulsa electrones, es el polo #highlight(fill: azul)[*(−)*].
+- #highlight(fill: rojo)[*Cátodo*: se produce la *reducción*]. Atrae electrones, es el polo #highlight(fill: rojo)[*(+)*].
 - *Voltímetro*: mide la diferencia de potencial entre ánodo y cátodo.
 
 #imp[Regla mnemotécnica _RED CAT_: la *reducción ocurre en el cátodo*.]
 
 #table(columns: (auto, 1fr, 1fr), align: center + horizon,
-  table.header[*Electrodo*][*Ánodo (Zn)*][*Cátodo (Cu)*],
-  [Proceso], [Oxidación: $"Zn" arrow.r "Zn"^(2+) + 2 e^-$], [Reducción: $"Cu"^(2+) + 2 e^- arrow.r "Cu"$],
-  [Polaridad], [(−)], [(+)],
+  table.header[*Electrodo*][#highlight(fill: azul)[*Ánodo (Zn)*]][#highlight(fill: rojo)[*Cátodo (Cu)*]],
+  [Proceso], [#highlight(fill: azul)[Oxidación]: $"Zn" arrow.r "Zn"^(2+) + 2 e^-$], [#highlight(fill: rojo)[Reducción]: $"Cu"^(2+) + 2 e^- arrow.r "Cu"$],
+  [Polaridad], [#highlight(fill: azul)[(−)]], [#highlight(fill: rojo)[(+)]],
   [Cargas + en la solución], [Aumentan (cada segundo hay más)], [Disminuyen (cada segundo hay menos)],
   [El electrodo], [Se va haciendo más "flaquita"], [Se va haciendo más "gordita"],
 )
@@ -67,13 +74,13 @@ Los electrones migran por el *circuito externo* (cable metálico) y así se obti
 
 A medida que ocurre la reacción, en el cátodo hay menos cargas positivas y en el ánodo hay más. Entonces los electrones son menos atraídos por el cátodo y más por el ánodo, y *dejarían de circular*. Para compensar las cargas se incorpora el puente salino.
 
-- Es una solución *saturada de un electrolito fuerte y muy soluble* ($"Na"^+$, $"K"^+$, $"Cl"^-$, $"NO"_3^-$, $"SO"_4^(2-)$) sobre un soporte (agar-agar).
-- Las cargas (+) van al cátodo y las (−) al ánodo: las soluciones permanecen *eléctricamente neutras* y los electrones siguen circulando por el circuito externo.
-- Asegura que no se acabe la pila rápidamente: la pila se agota antes que el puente salino.
+- Es una #highlight[solución *saturada de un electrolito fuerte y muy soluble*] ($"Na"^+$, $"K"^+$, $"Cl"^-$, $"NO"_3^-$, $"SO"_4^(2-)$) sobre un soporte (agar-agar).
+- Las cargas (+) van al cátodo y las (−) al ánodo: #highlight[las soluciones permanecen *eléctricamente neutras*] y los electrones siguen circulando por el circuito externo.
+- Asegura que no se acabe la pila rápidamente: #highlight[la pila se agota antes que el puente salino].
 
 === Electrodo estándar de hidrógeno (ENH o EEH)
 
-#def("Diferencia de potencial (potencial, voltaje, FEM o tensión, $Delta E$)")[Es el impulso que necesita una carga eléctrica para fluir por el conductor de un circuito. La corriente cesa cuando ambos puntos igualan su potencial eléctrico.]
+#def("Diferencia de potencial (potencial, voltaje, FEM o tensión)")[Es el impulso que necesita una carga eléctrica para fluir por el conductor de un circuito. La corriente cesa cuando ambos puntos igualan su potencial eléctrico.]
 
 *No se puede calcular un potencial absoluto*, por eso se toma uno de *referencia*: el ENH.
 
@@ -82,21 +89,38 @@ A medida que ocurre la reacción, en el cátodo hay menos cargas positivas y en 
 
 #formula[$ 2 "H"^+ ("aq") + 2 e^- arrow.r "H"_2 ("g") quad quad E^0_("H"^+ \/ "H"_2) = 0 $]
 
-#img("Electrodo normal de hidrógeno (Pt, H2 1 atm, HCl 1 M)")
+#figure(
+  image("/files/images/2P/pt.png", width: 25%),
+  caption: "Electrodo Normal de Hidrógeno"
+) <fig:pt>
 
 #imp[Cuanto *mayor* es el potencial de reducción de una especie, mayor tendencia tiene a reducirse y es *más oxidante*. Cuanto menor es, es menos oxidante.]
 
-*Condiciones normales o estándar*: soluciones 1 M, gases a 1 atm (comportamiento ideal). Los potenciales estándar están tabulados a 25 °C (libro de Whitten y archivo en Campus).
+*Condiciones normales o estándar*: soluciones 1 M, gases a 1 atm (comportamiento ideal). Los potenciales estándar están tabulados a 25 °C (libro de Whitten).
 
 === Cómo se miden los potenciales estándar
 
+#figure(
+  image("/files/images/2P/electrodoHidrogeno.png", width: 70%)
+) <fig:electrodoHidrogeno>
+
 *Cu con el ENH*: el $"Cu"^(2+)$ se reduce y el $"H"_2$ se oxida. El voltímetro mide 0,34 V.
 
-$ Delta E^0 = E^0_("Cu"^(2+) \/ "Cu") - E^0_("H"^+ \/ "H"_2) = 0.34 "V" quad arrow.r quad E^0_("Cu"^(2+) \/ "Cu") = 0.34 "V" $
+#figure(
+  image("/files/images/2P/ex-2.png", width: 80%)
+) <fig:ex-2>
+
+#formula[$ Delta E^0 = E^0_("Cu"^(2+) \/ "Cu") - E^0_("H"^+ \/ "H"_2) = 0.337 "V" quad arrow.r quad E^0_("Cu"^(2+) \/ "Cu") = 0.34 "V" $]
 
 *Zn con el ENH*: el Zn se oxida y el $"H"^+$ se reduce. El voltímetro mide 0,76 V.
 
-$ Delta E^0 = E^0_("H"^+ \/ "H"_2) - E^0_("Zn"^(2+) \/ "Zn") = 0.76 "V" quad arrow.r quad E^0_("Zn"^(2+) \/ "Zn") = -0.76 "V" $
+
+#figure(
+  image("/files/images/2P/ex-1.png", width: 80%)
+) <fig:ex-1>
+
+#formula[$ Delta E^0 = E^0_("H"^+ \/ "H"_2) - E^0_("Zn"^(2+) \/ "Zn") = 0.76 "V" quad arrow.r quad E^0_("Zn"^(2+) \/ "Zn") = -0.763 "V" $]
+
 
 #redtext[Siempre se escribe el potencial de *reducción*, entonces "miro al revés" la reacción que se oxida.]
 
@@ -111,7 +135,18 @@ $ E^0_("Zn"^(2+) \/ "Zn") = 0.34 "V" - 1.10 "V" = -0.76 "V" $
 Si se conectan dos electrodos cualesquiera, *siempre se reduce el que tiene mayor potencial de reducción* y se oxida el que tiene menor.
 ]]
 
+Ejemplo:
+
 $ "Cu"^(2+) ("aq") + "Zn" ("s") arrow.l.r "Cu" ("s") + "Zn"^(2+) ("aq") quad quad Delta E^0 = 0.34 - (-0.76) = 1.10 "V" $
+
+$
+  E^0_("Zn"^(2+) \/ "Zn") &= -0.76 \
+  E^0_("Cu"^(2+) \/ "Cu") &= 0.34 \
+  E^0_("oxidante") = E^0_("Zn"^(2+) \/ "Zn") quad &< quad E^0_("Cu"^(2+) \/ "Cu") = E^0_("reductor")
+  
+$
+
+
 
 #formula[$ Delta E = E_"reduce" - E_"oxida" = E_"cátodo" - E_"ánodo" $]
 
