@@ -173,24 +173,93 @@ La energía entregada por la reacción se usa como trabajo eléctrico: $Delta G 
 
 $Delta G < 0$ (espontánea) $arrow.double$ $Delta E > 0$.
 
-=== Notación abreviada de una celda
 
-$ "Zn" ("s") "/" "Zn"^(2+) (1 "M") "//" "Cu"^(2+) (1 "M") "/" "Cu" ("s") $
+=== Ejercicios
 
-- *Izquierda*: ánodo (−). *Derecha*: cátodo (+).
-- Una barra "/" indica una interfase (fases distintas).
-- Dos barras "//" indican el puente salino (2 interfases).
-- Distintas especies disueltas en la misma fase se separan con coma.
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+*50*. El potencial estándar de reducción del par: Cl2(g)/Cl- es 1,36 V; Ag+/Ag(s) es 
+0,799 V; Cu+/Cu(s) es 0,521 V; Cu2+/Cu(s) es 0,337 V; Fe2+/Fe(s) es -0,44 V; 
+Na+/Na(s) es -2,71 V; K+/K(s) es -2,925 V. a) Ordene los agentes oxidantes 
+según su fuerza creciente. b) ¿Cuáles de los agentes oxidantes oxidarán al Cu 
+en condiciones de estado estándar? 
+]
 
-$ "Pt" "/" "H"_2 (1 "atm") "/" "H"^+ (1 "M") "//" "MnO"_4^- (1 "M"), "H"^+ (1 "M"), "Mn"^(2+) (1 "M") "/" "Pt" $
+#figure(
+  image("/files/images/2P/ej-50.png", width: 100%)
+) <fig:ej-50>
+]
 
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+*58*. ¿Oxidara el Fe3+ al Sn2+ a Sn4+ en solución acida en condiciones estándar? 
+b) ¿Los iones dicromato oxidaran a los iones fluoruro a flúor libre en solución 
+acida en condiciones estándar? 
+]
+
+#figure(
+  image("/files/images/2P/ej-58.png", width: 100%)
+) <fig:ej-58>
+]
+
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+*66*.  ¿Cuáles de las siguientes reacciones son espontáneas en celdas voltaicas funcionando en condiciones estándar?
+
+a) H2(g) → H+ (ac) + H- (ac)
+
+b) Zn(s) + 4 CN- (ac) + Ag2CrO4 (s) → Zn(CN)42-(ac) + 2 Ag (s) + CrO42- (ac)
+
+c) MnO2(s) + 4 H+ (ac) + Sr (s) → Mn2+ (ac) + 2 H2O (l) + Sr2+ (ac)
+
+d) Cl2 (g) + H2O (l) + ZnS (s) → 2 HClO (ac) + H2S (ac) + Zn (s) 
+]
+
+#figure(
+  image("/files/images/2P/ej-66.png", width: 60%)
+) <fig:ej-66>
+]
+
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+*A7*.  Los valores en módulo de los E° de los metales X e Y son:
+
+X2+ (ac) + 2e- → X (s)  $quad quad quad$ |E° X2+/X|= 0,25 V                       
+
+Y2+ (ac) + 2e- → Y (s)  $quad quad quad$ E° Y2+/Y|= 0,34  V                       
+
+
+
+
+Cuando se conectan las medias celdas X e Y, los electrones circulan de X a Y. Cuando X se conecta al ENH los electrones circulan 
+de X a ENH.
+a) ¿Cuáles son los signos de E°?
+b) Escribir la reacción que se produce y calcular E° celda.
+c) Escribir la forma simplificada de la celda. Indicar nombre y polaridad de los electrodos
+e
+solución X2+(1.0M)
+. 
+]
+
+#figure(
+  image("/files/images/2P/ej-a7.png", width: 90%)
+) <fig:ej-a7>
+]
+
+
+
+#pagebreak()
 == Celdas galvánicas (condiciones no estándar)
 
 === Ecuación de Nernst
 
 Permite conocer el potencial de una celda con *cualquier concentración y presión* de sus especies, y así saber si es espontánea.
 
-$ Delta G = Delta G^0 + R T ln Q quad arrow.r quad - n F Delta E = - n F Delta E^0 + R T ln Q quad arrow.r quad Delta E = Delta E^0 - (R T)/(n F) ln Q $
+$Delta G = Delta G^0 + R T ln Q \
+ -n F Delta E = - n F Delta E^0 + R T ln Q  \
+Delta E = Delta E^0 - (R T)/(n F) ln Q$
 
 Con $F$ = 96500 C/mol, $R$ = 8,31 J/(K·mol), $T$ = 298 K y $ln a = 2.3 log a$:
 
@@ -202,18 +271,25 @@ Con $F$ = 96500 C/mol, $R$ = 8,31 J/(K·mol), $T$ = 298 K y $ln a = 2.3 log a$:
 - Cuando $Delta E = 0$, $Q = K_"eq"$.
 - $Delta E^0 = E^0_"HR" - E^0_"HO"$ (pero siempre con valores de *reducción*).
 
-=== Ejemplo: $"Zn" ("s") "/" "Zn"^(2+) (0.5 "M") "//" "Cu"^(2+) (0.8 "M") "/" "Cu" ("s")$
+*Ejemplo:*
+
+#box(stroke: 1pt, inset: 10pt, radius: 0pt, width: 100%)[
+$"Zn" ("s") "/" "Zn"^(2+) (0.5 "M") "//" "Cu"^(2+) (0.8 "M") "/" "Cu" ("s")$
 
 $ "Cu"^(2+) + "Zn" arrow.l.r "Cu" + "Zn"^(2+) $
 
-$ Delta E = 0.34 + 0.76 - 0.059/2 log (0.5)/(0.8) = 1.11 "V" $
+$Delta E =  Delta E^0- 0.059/2 log ["Zn"^"2+"]/["Cu"^"2+"] $
+
+$Delta E = (0.34 + 0.76) - 0.059/2 log (0.5)/(0.8) = 1.11 "V" $
+
 
 También se puede calcular por electrodo y luego restar:
 
-$ E_("Cu"^(2+) \/ "Cu") = 0.34 - 0.059/2 log 1/0.8 = 0.337 "V" quad quad E_("Zn"^(2+) \/ "Zn") = -0.76 - 0.059/2 log 1/0.5 = -0.77 "V" $
+$E_("Cu"^(2+) \/ "Cu") = 0.34 - 0.059/2 log 1/0.8 = 0.337 "V" \ 
+E_("Zn"^(2+) \/ "Zn") = -0.76 - 0.059/2 log 1/0.5 = -0.77 "V" $
 
 $ Delta E = E_"cátodo" - E_"ánodo" = 0.337 - (-0.77) = 1.11 "V" $
-
+]
 === Influencia del pH
 
 Reacción clásica para recordar (el $"I"_2$ es de color ocre):
