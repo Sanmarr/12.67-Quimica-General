@@ -90,7 +90,7 @@ Resumen por Ignacio Sammartino \
 #set heading(numbering: "1. 1. 1 -")
 
 #set page(columns: 2)
-#outline()
+#outline(depth: 2)
 #set page(columns: 1)
 
 // heading
@@ -155,6 +155,10 @@ Resumen por Ignacio Sammartino \
 
 #pagebreak()
 #include "files/Electroquimica.typ"
+
+#pagebreak()
+#include "files/Precipitacion.typ"
+
 
 /*
 #pagebreak()

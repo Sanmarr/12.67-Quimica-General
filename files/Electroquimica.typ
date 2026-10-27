@@ -328,6 +328,8 @@ $ 0 = Delta E^0 - 0.059/n log K quad arrow.r quad log K = (n Delta E^0)/0.059 $
 
 #formula[$ K = 10^((n Delta E^0)/0.059) $]
 
+Solo valida para reacciones redox
+
 == Celdas electrolíticas
 
 #def("Celda electrolítica")[La energía eléctrica se transforma en energía química y así se produce una reacción *no espontánea* ($Delta G > 0$ y $Delta E < 0$).]
@@ -411,14 +413,4 @@ $Q$ en C, $i$ (intensidad de corriente) en A y $t$ en s.
 
 #imp[$1 "F" = 96500 "C" = 1 "mol de" e^-$ que pasan por el sistema.]
 
-== Electroquímica: ¡Importante!
 
-#imp[
-- *$K_"eq"$*: en equilibrio $0 = Delta E^0 - 0.059/n log K$.
-- *Balance de masa = coeficiente* (estequiometría).
-- Para el $E$ de un electrodo *siempre se plantea la reducción*: $E = E^0 - 0.059/n log (["Reducido"])/(["Oxidado"])$.
-- *Electrólisis: cambia la polaridad*, cátodo (−) y ánodo (+).
-- Electrólisis de solución acuosa neutra: $["H"^+] = ["OH"^-] = 10^(-7)$ M. *NO es condiciones estándar*.
-- 1 mol de electrones = 1 Faraday = 96500 C.
-- Ley de Faraday: $Q = i dot t$.
-]
