@@ -40,11 +40,9 @@ $ "Zn" arrow.r "Zn"^(2+) + 2 e^- quad quad "(se generan electrones)" $
 
 La transferencia de electrones se produce sobre una *superficie conductora* (el Zn metálico). *Los electrones no se mueven por la solución* . El proceso es #redbold[espontáneo ($Delta G < 0$)], pero así no se puede aprovechar la energía como energía eléctrica.
 
-#def("Celda galvánica (pila)")[Dispositivo armado de tal manera que la energía liberada en una reacción química (espontánea) se transforma en energía eléctrica.]
+#def("Celda galvánica (pila)")[Dispositivo armado de tal manera que la energía liberada en una reacción química óxido - reducción (espontánea) se transforma en energía eléctrica.]
 
 === Pila de Daniell
-
-
 
 #figure(
   image("/files/images/2P/pila.png", width: 100%)
@@ -308,7 +306,12 @@ Es una *variación lineal* en el pH ($-log["H"^+] = log(1\/["H"^+])$): el primer
 - A menores pH: $Delta E > 0$, la reacción ocurre espontáneamente.
 - A mayores pH: $Delta E < 0$, no ocurre espontáneamente.
 
-#img[Gráfico de $Delta E$ en función del pH (recta decreciente)]
+//#img[Gráfico de $Delta E$ en función del pH (recta decreciente)]
+
+#figure(
+  image("/files/images/2P/DeltaE.png", width: 40%),
+  caption: [Gráfico de $Delta E$ en función del pH (recta decreciente)]
+) <fig:DeltaE>
 
 === Celda de concentración
 
@@ -318,7 +321,7 @@ $ "Cátodo (+)": "Ag"^+ + 1 e^- arrow.r "Ag" quad quad "Ánodo (−)": "Ag" arro
 
 $ Delta E = underbrace(Delta E^0, 0) - 0.059/1 log (["Ag"^+]_"ánodo")/(["Ag"^+]_"cátodo") $
 
-#redtext[$Delta E^0$ es 0!] Para tener una celda galvánica $Delta E > 0$, entonces el log debe ser negativo: el argumento debe ser menor que 1, o sea $["Ag"^+]_"ánodo" < ["Ag"^+]_"cátodo"$. Por lo tanto *X (la más diluida) es el ánodo e Y (la más concentrada) es el cátodo*.
+#redtext[$Delta E^0$ es 0!] Para tener una celda galvánica $Delta E > 0$, entonces el log debe ser negativo: el argumento debe ser menor que 1, o sea $["Ag"^+]_"ánodo" < ["Ag"^+]_"cátodo"$. Por lo tanto #highlight[ *X (la más diluida) es el ánodo e Y (la más concentrada) es el cátodo*.]
 
 === Constante de equilibrio
 
@@ -326,18 +329,25 @@ Para $"Cu"^(2+) + "Zn" arrow.l.r "Cu" + "Zn"^(2+)$, en equilibrio $Delta E = 0$ 
 
 $ 0 = Delta E^0 - 0.059/n log K quad arrow.r quad log K = (n Delta E^0)/0.059 $
 
-#formula[$ K = 10^((n Delta E^0)/0.059) $]
+#formula[$ K = 10^((n dot  Delta E^0)/0.059) $]
 
 Solo valida para reacciones redox
 
+
+#pagebreak()
 == Celdas electrolíticas
 
 #def("Celda electrolítica")[La energía eléctrica se transforma en energía química y así se produce una reacción *no espontánea* ($Delta G > 0$ y $Delta E < 0$).]
 
-#img("Celda electrolítica: batería, ánodo (+), cátodo (−)")
+//#img("Celda electrolítica: batería, ánodo (+), cátodo (−)")
+
+#figure(
+  image("/files/images/2P/bateria.png", width: 50%),
+  caption: [Celda electrolítica: batería, ánodo (+), cátodo (−)]
+) <fig:bateria>
 
 - *Ánodo*: se produce la *oxidación*. Se conecta al polo *(+)* de la fuente de CC y atrae *aniones*. Los electrones van desde este electrodo hacia la fuente.
-- *Cátodo*: se produce la *reducción*. Se conecta al polo *(−)* de la fuente de CC y atrae *cationes*. Los electrones llegan desde la fuente a este electrodo.
+- *Cátodo*: se produce la *reducción* (RED-CAT). Se conecta al polo *(−)* de la fuente de CC y atrae *cationes*. Los electrones llegan desde la fuente a este electrodo.
 - Como la reacción no es espontánea, los $e^-$ corren de + hacia −; en las reacciones espontáneas corren de − a +.
 - Salvo casos particulares donde los productos reaccionan entre sí, no se separan ánodo y cátodo en recipientes distintos.
 
