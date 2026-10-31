@@ -156,8 +156,8 @@ Resumen por Ignacio Sammartino \
 #pagebreak()
 #include "files/Electroquimica.typ"
 
-#pagebreak()
-#include "files/Precipitacion.typ"
+//#pagebreak()
+//#include "files/Precipitacion.typ"
 
 
 /*

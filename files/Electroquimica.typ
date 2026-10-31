@@ -334,6 +334,95 @@ $ 0 = Delta E^0 - 0.059/n log K quad arrow.r quad log K = (n Delta E^0)/0.059 $
 Solo valida para reacciones redox
 
 
+=== Ejercicios
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+Se monta una celda en la que se colocan electrodos de cobre idénticos en dos soluciones. La solución A contiene
+$"Cu"^(2+)$ 0,75 M.
+La solución B contiene $"Cu"^(2+)$ cuya concentración conocida es menor que la de la solución A. El potencial de la celda que se
+observa es 0,040 V. ¿Cuál es la [$"Cu"^(2+)$] de la solución B?
+]
+
+#figure(
+  image("/files/images/2P/nerst.png", width: 80%)
+) <fig:nerst>
+]
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+Calcule $Delta E^0$ a partir de los potenciales estándar de reducción tabulados de 
+las siguientes reacciones en solución acuosa luego calcule $Delta G^0$ y $K_"eq"$ a 25°C a partir de $Delta E^0$. ¿Qué reacciones son espontáneas tal como están escritas?  
+
+a) $"MnO"_4^-$ + 5 $"Fe"^2$+ → $"Mn"^(2+)$+ + 5 $"Fe"^(3+)$ (solución acida) 
+
+b) 2 Cu+ → $"Cu"^(2+)$ + Cu (s) 
+
+c) 3 Zn (s) + 2 $"MnO"_4^-$ + 4 $H_2 O$ → 2 $"MnO"_2$ (s) + 3 Zn$("OH")_2$ (s) + 2 $"OH"^-$ 
+]
+
+#figure(
+  image("/files/images/2P/ej100.png", width: 85%)
+) <fig:ej100>
+]
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+a) ¿En condiciones estándar la siguiente reacción es espontánea? Justificar la respuesta
+$ "BrO"_3^- ("ac") + H^+ ("ac") + "Br"^- ("ac") → H_2O (l) + "Br"_2 (l) $
+b) Si se ajusta el pH con NH3 y NH4Cl de tal manera que la concentración molar final en la solución es 10-2 y 10-3 M 
+respectivamente.  ¿Qué valor tendrá el potencial si las concentraciones de las especies químicas se mantienen constantes?
+]
+
+#figure(
+  image("/files/images/2P/ej7a.png", width: 85%)
+) <fig:ej7a>
+
+#figure(
+  image("/files/images/2P/ej7a2.png", width: 85%)
+) <fig:ej7a2>
+]
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+Dada la siguiente celda galvánica:
+$ "Pt" | "Fe"^(2+) (0.02 "M"), "Fe"^(3+) (0.5 "M") || "MnO"_4^- (0.1 "M"), "H"^+ (x "M"), "Mn"^(2+) (0.1 "M") | "Pt" $
+a) ¿Cuál debe ser el pH en el cátodo para que $E_"celda" = 0.5 "V"$?
+b) ¿Cuál debe ser el pH máximo que puede tener la solución catódica para que la celda funcione como está escrita?
+]
+#figure(
+  image("/files/images/2P/ej_oaa.png", width: 85%)
+) <fig:ej_oaa>
+]
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+Se mezclan a 25°C una solución de $"IO"_3^-$ con una solución de $"I"^-$. Al acidificar dicha solución con 
+ácido hasta que la $["H"^+] = 10^-6 "M"$ aparece una señal que indica que hubo reacción química. Se pide:
+a) La reacción química que se produce igualada en forma iónica por el método del ion-electrón.
+b) La constante de equilibrio de la reacción espontánea producida.
+c) Suponiendo que las concentraciones $"IO"_3^-$, $"I"^-$ y el producto formado se mantienen constantes e iguales a 1 M, calcular el potencial de la celda y el pH al cual se invierte la reacción.
+Datos: $E^0_("IO"_3^- \/ "I"_2) = 1.20 "V"$ y $E^0_("I"_2 \/ "I"^-) = 0.54 "V"$
+]
+#figure(
+  image("/files/images/2P/ej_oaa2.png", width: 85%)
+) <fig:ej_oaa2>
+]
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+a) Calcular $E^0_("Cr"_2 "O"_7^(2-)\/"Cr"^(3+))$ en agua y en solución de $"H"_2"SO"_4$ 0,1 M si en ambos casos $["Cr"_2"O"_7^(2-)] = ["Cr"^(3+)] = 1 "M"$.
+b) ¿A cuál de los dos pH el $"Cr"_2"O"_7^(2-)$ oxida a la plata metálica, en solución de $"Ag"^+$ 1 M?
+Datos: $E^0_("Cr"_2"O"_7^(2-) \/ "Cr"^(3+)) = 1.33 "V"$ y $E^0_("Ag"^+ \/ "Ag") = 0.80 "V"$
+]
+#figure(
+  image("/files/images/2P/ej_oaa3.png", width: 85%)
+) <fig:ej_oaa3>
+]
+
+
+
+
 #pagebreak()
 == Celdas electrolíticas
 
