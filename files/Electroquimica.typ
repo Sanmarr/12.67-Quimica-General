@@ -504,12 +504,127 @@ $ "Cátodo (−)": "Cu"^(2+) + 2 e^- arrow.r "Cu" quad quad "Ánodo (+)": "Cu" a
 La cantidad de sustancia que se reduce u oxida en una electrólisis es *directamente proporcional a la cantidad de electricidad* que pasa por la celda.
 
 - Un *coulomb* (C) es la carga que pasa por un punto cuando circula 1 *ampère* (A) durante 1 segundo: 1 A = 1 C/s.
-- 1 *Faraday* (F) = 96485 C. Por simplicidad se usa *96500 C*.
+- 1 *Faraday* (F) =  96500 C.
 
 #formula[$ Q = i dot t $]
 
 $Q$ en C, $i$ (intensidad de corriente) en A y $t$ en s.
 
 #imp[$1 "F" = 96500 "C" = 1 "mol de" e^-$ que pasan por el sistema.]
+
+#pagebreak()
+=== Ejercicios
+
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+*Ejercicio 28.*
+
+Se hace pasar corriente por 500 mL de una solución de $"CaI"_2$. En los electrodos ocurren las siguientes reacciones:
+
+$ "Ánodo (+):" quad 2 "I"^- arrow.r "I"_2 + 2 e^- $
+
+$ "Cátodo (−):" quad 2 "H"_2"O" + 2 e^- arrow.r "H"_2 + 2 "OH"^- $
+
+Luego de cierto tiempo, se analizó la solución y se vio que se habían formado 37,5 mmol de $"I"_2$.
+
++ ¿Cuántos Faraday de carga pasaron por la solución?
++ ¿Cuántos Coulombs?
++ ¿Qué volumen de $"H"_2$ seco se formó en CNPT?
++ ¿Cuál es el pH de la solución?
+
+]
+#figure(
+  image("/files/images/2P/ej28.png", width: 75%)
+) <fig:ej28>
+
+#figure(
+  image("/files/images/2P/ej282.png", width: 75%)
+) <fig:ej282>
+]
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+
+Suponga que 250 mL de solución de $"CuCl"_2$ 0,533 M se someten a electrólisis.
+
++ ¿Qué masa de $"Cu"_((s))$ se habrá depositado en el cátodo en ese tiempo?
++ ¿Cuánto tiempo debe hacerse pasar una corriente de 0,750 A para que la concentración de $"Cu"^(2+)$ disminuya a 0,167 M?
+
+]
+
+
+#figure(
+  image("/files/images/2P/ej32.png", width: 75%)
+) <fig:ej34>
+
+
+]
+
+
+
+
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+
+Tres celdas electrolíticas se conectan en serie. Esto es: la misma corriente pasa por las tres, una después de la otra.
+En la primera celda 1,20 g de Cd se oxidan a $"Cd"^(2+)$. En la segunda $"Ag"^+$ se reduce a Ag. En la tercera $"Fe"^(2+)$ se oxida a $"Fe"^(3+)$.
+
++ Calcular los Faraday que circularon por el circuito.
++ ¿Qué masa de Ag se depositó en el cátodo de la segunda celda?
++ ¿Qué masa de $"Fe"("NO"_3)_3$ se recupera en la tercera celda?
+
+]
+
+
+#figure(
+  image("/files/images/2P/ej34.png", width: 85%)
+) 
+
+
+]
+
+
+
+
+
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+
+Se efectúa la electrólisis de 1 L de solución de $"CuSO"_4$ 1 M (suponer solución neutra) usándose 2,3 A durante 2 horas, a 25 °C con electrodos inatacables. El rendimiento de la corriente es 80%.
+
++ Escriba las reacciones que se producen en los electrodos.
++ Para el gas desprendido, calcular el volumen medido seco a 25 °C y 1,2 atm y el trabajo producido en Joule.
++ Calcular el pH después de la electrólisis.
++ Repita este último cálculo si la solución se diluye a 2 L con agua antes de la electrólisis.
+
+]
+
+
+#figure(
+  image("/files/images/2P/ej20a1.png", width: 75%)
+) 
+
+#figure(
+  image("/files/images/2P/ej20a2.png", width: 75%)
+) 
+
+#figure(
+  image("/files/images/2P/ej20a3.png", width: 75%)
+) 
+
+#figure(
+  image("/files/images/2P/ej20a4.png", width: 75%)
+) 
+
+#figure(
+  image("/files/images/2P/ej20a5.png", width: 45%)
+) 
+
+
+
+
+
+
 
 
