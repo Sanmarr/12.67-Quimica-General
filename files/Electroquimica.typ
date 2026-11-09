@@ -535,11 +535,11 @@ Luego de cierto tiempo, se analizó la solución y se vio que se habían formado
 
 ]
 #figure(
-  image("/files/images/2P/ej28.png", width: 75%)
+  image("/files/images/2P/ej28.png", width: 95%)
 ) <fig:ej28>
 
 #figure(
-  image("/files/images/2P/ej282.png", width: 75%)
+  image("/files/images/2P/ej282.png", width: 95%)
 ) <fig:ej282>
 ]
 
@@ -555,7 +555,7 @@ Suponga que 250 mL de solución de $"CuCl"_2$ 0,533 M se someten a electrólisis
 
 
 #figure(
-  image("/files/images/2P/ej32.png", width: 75%)
+  image("/files/images/2P/ej32.png", width: 85%)
 ) <fig:ej34>
 
 
@@ -579,7 +579,7 @@ En la primera celda 1,20 g de Cd se oxidan a $"Cd"^(2+)$. En la segunda $"Ag"^+$
 
 
 #figure(
-  image("/files/images/2P/ej34.png", width: 85%)
+  image("/files/images/2P/ej34.png", width: 100%)
 ) 
 
 
@@ -588,7 +588,7 @@ En la primera celda 1,20 g de Cd se oxidan a $"Cd"^(2+)$. En la segunda $"Ag"^+$
 
 
 
-
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
 #box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
 
 Se efectúa la electrólisis de 1 L de solución de $"CuSO"_4$ 1 M (suponer solución neutra) usándose 2,3 A durante 2 horas, a 25 °C con electrodos inatacables. El rendimiento de la corriente es 80%.
@@ -602,25 +602,21 @@ Se efectúa la electrólisis de 1 L de solución de $"CuSO"_4$ 1 M (suponer solu
 
 
 #figure(
-  image("/files/images/2P/ej20a1.png", width: 75%)
-) 
+  image("/files/images/2P/ej20a1.png", width: 95%)) 
 
 #figure(
-  image("/files/images/2P/ej20a2.png", width: 75%)
-) 
+  image("/files/images/2P/ej20a2.png", width: 95%)) 
+]
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#figure(
+  image("/files/images/2P/ej20a3.png", width: 95%)) 
 
 #figure(
-  image("/files/images/2P/ej20a3.png", width: 75%)
-) 
+  image("/files/images/2P/ej20a4.png", width: 95%)) 
 
 #figure(
-  image("/files/images/2P/ej20a4.png", width: 75%)
-) 
-
-#figure(
-  image("/files/images/2P/ej20a5.png", width: 45%)
-) 
-
+  image("/files/images/2P/ej20a5.png", width: 60%)) 
+]
 
 
 

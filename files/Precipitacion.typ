@@ -28,13 +28,19 @@
 
 = Equilibrio de precipitación y complejos
 
+#figure(
+  image("/files/images/2P/solubilidad.png", width: 50%))
+
 == Equilibrio de precipitación o de solubilidad
 
 Aplica a sales, ácidos y bases *poco solubles* en agua. *Lo que se disuelve, se disocia.*
 
-#img("Tubo de ensayo con solución saturada y soluto precipitado")
+//#img("Tubo de ensayo con solución saturada y soluto precipitado")
 
-- Una solución está *saturada* cuando está en equilibrio con soluto precipitado a una dada temperatura. La concentración de esa solución saturada se llama *solubilidad*.
+#figure(
+  image("/files/images/2P/preci.png", width: 20%))
+
+- #highlight[Una solución está *saturada* cuando está en equilibrio con soluto precipitado a una dada temperatura. La concentración de esa solución saturada se llama *solubilidad*].
 - Si la concentración es *menor* que la solubilidad (a esa $T$): *insaturada*.
 - Si es *mayor*: *sobresaturada* (muy inestable).
 - Al aumentar la $T$, la solubilidad de los *gases* baja (se evaporan más rápido).
@@ -43,11 +49,21 @@ Aplica a sales, ácidos y bases *poco solubles* en agua. *Lo que se disuelve, se
 
 Cuando la solución se satura se alcanza el equilibrio:
 
-$ "PbCl"_2 ("s") arrow.l.r "Pb"^(2+) ("aq") + 2 "Cl"^- ("aq") quad quad K_"ps" = ["Pb"^(2+)] ["Cl"^-]^2 = s (2 s)^2 = 4 s^3 $
+$ "PbCl"_2 ("s") arrow.l.r underbrace("Pb"^(2+) ("aq"),s
+) + underbrace(2 "Cl"^- ("aq"),2  s) 
+quad quad 
+K_"ps" = ["Pb"^(2+)] ["Cl"^-]^2 = s dot (2 s)^2 = 4 s^3 $
 
-$ "CaCO"_3 ("s") arrow.l.r "Ca"^(2+) ("aq") + "CO"_3^(2-) ("aq") quad quad K_"ps" = ["Ca"^(2+)] ["CO"_3^(2-)] = s dot s = s^2 $
+$ "CaCO"_3 ("s") arrow.l.r 
+underbrace("Ca"^(2+) ("aq"),s) + 
+underbrace("CO"_3^(2-) ("aq"),s) 
+quad quad 
+K_"ps" = ["Ca"^(2+)] ["CO"_3^(2-)] = s dot s = s^2 $
 
-#def("Solubilidad ($s$)")[Moles que se disuelven en 1 L de solución saturada a una temperatura determinada.]
+#def("Solubilidad (s)")[_Es la maxima cantidad de soluto que se disolvera en una cantidad dada de solvente_.
+  
+  
+  Moles que se disuelven en 1 L de solución saturada a una temperatura determinada.]
 
 #def([Constante del producto de solubilidad ($K_"ps"$)])[Depende de la temperatura, como toda constante de equilibrio.]
 
@@ -55,49 +71,89 @@ $ "CaCO"_3 ("s") arrow.l.r "Ca"^(2+) ("aq") + "CO"_3^(2-) ("aq") quad quad K_"ps
 
 === ¿Cómo saber si se forma precipitado?
 
-*Ejemplo*: $"AgNO"_3$ 50 mL, $10^(-4)$ M; se agregan 50 mL de $"NaCl"$ $10^(-3)$ M. $K_"ps" ("AgCl") = 2 dot 10^(-10)$.
+#align(center)[
+#box(stroke: 1pt, inset: 8pt, radius: 0pt, width: auto)[
+#set align(left)
+*Ejemplo*: $"AgNO"_3$ 50 mL, $10^(-4)$ M; 
+
+Se agregan 50 mL de $"NaCl"$ $10^(-3)$ M; $K_"ps" ("AgCl") = 2 dot 10^(-10)$.
+
 
 Podrían precipitar $"AgCl"$, $"NaCl"$, $"NaNO"_3$ y $"AgNO"_3$. El $"NaCl"$ y el $"AgNO"_3$ no, porque solo se diluyen; y el $"NaNO"_3$ es extremadamente soluble. *Solo puede precipitar el $"AgCl"$.*
 
+
 $ "AgCl" ("s") arrow.l.r "Ag"^+ ("aq") + "Cl"^- ("aq") $
 
-$ Q_"ps" = ["Ag"^+] ["Cl"^-] = 5 dot 10^(-5) dot 5 dot 10^(-4) = 2.5 dot 10^(-8) > K_"ps" $
+$ Q_"ps" = ["Ag"^+] ["Cl"^-] = (5 dot 10^(-5)) dot (5 dot 10^(-4)) = 2.5 dot 10^(-8) > K_"ps" $
+]]
+
 
 #formula[$Q_"ps" > K_"ps"$: *precipita* #h(2em) $Q_"ps" < K_"ps"$: *no precipita*]
 
-#imp[Los *nitratos* son extremadamente solubles, entonces *NUNCA precipitan*. Y siempre hay que considerar el cambio de volumen al mezclar (diluciones).]
+$Q_"ps"$: Cociente del producto de solubilidad
+
+#imp[Los *nitratos* son extremadamente solubles, entonces *NUNCA precipitan*. Y siempre hay que considerar el cambio de volumen al mezclar (diluciones).
+
+
+
+]
 
 === ¿Qué cantidad debe agregarse para que precipite?
 
-*Ejemplo*: $"AgNO"_3$ 50 mL, $10^(-4)$ M. Se agrega $"NaCl"$ (s) sin cambio de volumen (la cantidad agregada es ínfima).
+#align(center)[
+#box(stroke: 1pt, inset: 8pt, radius: 0pt, width: auto)[
+#set align(left)
+*Ejemplo*: $"AgNO"_3$ 50 mL, $10^(-4)$ M. 
+
+Se agrega $"NaCl"$ (s) sin cambio de volumen (la cantidad agregada es ínfima).
 
 Se plantea $Q_"ps" = K_"ps"$, que da la concentración necesaria de cualquier ion para que haya precipitado:
 
 $ ["Cl"^-] = K_"ps" / ["Ag"^+] = (2 dot 10^(-10))/(10^(-4)) = 2 dot 10^(-6) "M" quad arrow.r quad m_"NaCl" = 5.85 dot 10^(-6) "g" $
 
 Es predecible mirando $K_"ps"$: es muy bajo, la Ag es muy poco soluble.
-
+]]
 === ¿Cuánto precipita y cuánto queda en solución?
 
+
+#align(center)[
+#box(stroke: 1pt, inset: 8pt, radius: 0pt, width: auto)[
+#set align(left)
 *Ejemplo*: $"AgNO"_3$ 200 mL, 0,2 M mezclado con $"NaCl"$ 300 mL, 0,4 M (volumen final 0,5 L).
 
 $ ["Ag"^+] = 0.08 "M" quad ["Cl"^-] = 0.24 "M" quad arrow.r quad Q_"ps" = 0.08 dot 0.24 = 0.0192 > K_"ps" quad arrow.r quad "precipita" $
 
-*Método 1* (plantear $x$ que precipita): $2 dot 10^(-10) = (0.08 - x)(0.24 - x)$. Da $x = 0.079999999$, o sea que precipitó "toda" la Ag, pero *no se puede decir que precipita TODO*. Con $K_"ps"$ muy pequeña los resultados pueden carecer de sentido si no se tiene una calculadora programable.
+*[Método 1] Plantear $x$ que precipita*: Con $K_"ps"$ muy pequeña los resultados pueden carecer de sentido si no se tiene una calculadora programable.
 
-*Método 2* (más simple, mismo resultado): se considera que *precipita todo y después se redisuelve una parte*, y así se llega al equilibrio entre el sólido y los iones en solución.
+$ mat(delim: #none, "AgCl (s)", arrow.l.r, "Ag"^+, "+", "Cl"^-; , , 0.08, , 0.24; , , 0.08 - x, , 0.24 - x;) $
+
+$K_"ps" = ["Ag"^+ ]["Cl"^-] 
+\ 2 dot 10^(-10) = (0.08 - x)(0.24 - x) arrow.r x = 0.079999999  #text(fill: red, weight: "bold")[  (concentracion que se precipita)]$
+
+- $["Ag"^+] = 0.08 - x = 1.25 dot 10^(-9)$ M 
+- $["Cl"^-] = 0.24 - x = 0.16$ M.
+- $n_"AgCl precipitado" = x dot 0.5 "L" approx 0.04 "mol"$.
+
+*[Método 2] Se precipita todo y después se redisuelve una parte*: Se llega al equilibrio entre el sólido y los iones en solución.
 
 $ mat(delim: #none, "AgCl (s)", arrow.l.r, "Ag"^+, "+", "Cl"^-; , , 0.08, , 0.24; , , -, , 0.16; , , x, , 0.16 + x) $
 
+/*
 (0,08 M es lo que se considera que precipitó: todo el $"Ag"^+$. Pasa de 0,24 a 0,16 por la relación estequiométrica: 0,08 mol de $"Ag"^+$ reaccionan con 0,08 mol de $"Cl"^-$.)
+*/
 
-$ 2 dot 10^(-10) = x (0.16 + x) quad arrow.r quad x = 1.25 dot 10^(-9) "M" $
+$K_"ps" = ["Ag"^+ ]["Cl"^-] \
+2 dot 10^(-10) = x (0.16 + x) 
+quad arrow.r quad 
+x = 1.25 dot 10^(-9) "M" #text(fill: red, weight: "bold")[  (concentracion que NO precipita)]$
 
-- $["Ag"^+] = x = 1.25 dot 10^(-9)$ M (concentración que *no* precipitó).
+- $["Ag"^+] = x = 1.25 dot 10^(-9)$ M 
 - $["Cl"^-] = 0.16 + x approx 0.16$ M.
 - $n_"AgCl precipitado" = 0.08 dot 0.5 "L" = 0.04 "mol"$.
+]]
 
-#imp[Como $K_"ps"$ es muy pequeña, no queda casi nada disuelto del reactivo que *menos* se tiene (en relación estequiométrica).]
+#imp[Como $K_"ps"$ es muy pequeña ($~10^(-10)$), no queda casi nada disuelto del reactivo que *menos* se tiene (en relación estequiométrica).]
+
 
 === Efecto de ion común
 
@@ -107,12 +163,15 @@ $ 2 dot 10^(-10) = x (0.16 + x) quad arrow.r quad x = 1.25 dot 10^(-9) "M" $
 
 $ mat(delim: #none, "AgCl (s)", arrow.l.r, "Ag"^+, "+", "Cl"^-; , , -, , 0.01; , , s', , 0.01 + s') $
 
-$ K_"ps" = s' (0.01 + s') approx s' dot 0.01 = 2 dot 10^(-10) quad arrow.r quad s' = 2 dot 10^(-8) "M" $
+$K_"ps" = ["Ag"^+ ]["Cl"^-] \
+2 dot 10^(-10) = s' (0.01 + s') approx s' dot 0.01 = 2 dot 10^(-10) quad arrow.r quad s' = 2 dot 10^(-8) "M" $
 
 Se verifica que $s' << 0.01$ M y que $s' << 1.41 dot 10^(-5)$ M. Hay $"Cl"^-$ presente, entonces el equilibrio se desplaza hacia la izquierda (principio de Le Châtelier).
 
 #imp[*Efecto de ion común = disminuye la solubilidad.* Siempre se va a tener que *despreciar $s'$ frente a la cantidad presente del ion común* (aunque se pueda resolver la cuadrática).]
 
+
+/*
 === Disolución de precipitados
 
 _No todas las técnicas sirven para cada caso._
@@ -159,6 +218,7 @@ $ "CuS" ("s") arrow.l.r "Cu"^(2+) ("aq") + "S"^(2-) ("aq") $
 $ "S"^(2-) + "H"_2"O" arrow.l.r "HS"^- + "OH"^- quad quad "HS"^- + "H"_2"O" arrow.l.r "H"_2"S" + "OH"^- $
 
 Si se agrega una *base*, los dos últimos equilibrios se desplazan hacia la izquierda: aumenta el $"S"^(2-)$ y el primer equilibrio se desplaza a la izquierda, obteniendo más precipitado. *Agregar una base favorece la precipitación.*
+
 
 == Disolución de precipitados por formación de complejos
 
@@ -248,3 +308,99 @@ $ "H"_2"S" + "H"_2"O" harpoons.rtlb "HS"^- + "H"_3"O"^+ quad (K_(a 1)) quad quad
 *Producto iónico del ácido sulfhídrico*: relaciona $["S"^(2-)]$ con el pH.
 
 Para precipitar un catión como sulfuro (ej: CuS) se *aumenta el pH*: al agregar base se desplazan hacia la izquierda los equilibrios de hidrólisis del $"S"^(2-)$, aumenta $["S"^(2-)]$ y se obtiene más precipitado.
+*/
+
+#pagebreak()
+== Ejercicios
+
+
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+¿Precipitará $"PbCl"_2$ cuando a 1,00 L de solución de NaCl 0,010 M se agreguen 5,0 g de $"Pb"("NO"_3)_2$ (s) ? 
+
+Suponga que el cambio de volumen es insignificante.
+
+]
+
+#figure(
+  image("/files/images/2P/ej28b.png", width: 80%))
+
+]
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+
+Suponga que tiene tres vasos de precipitados que contienen, respectivamente, 100 mL de las soluciones siguientes:
+
+#align(center)[
+  i) KOH 0,0015 M #h(1cm) ii) $"K"_2"CO"_3$ 0,0015 M #h(1cm) iii) KCN 0,0015 M
+]
+
+a) Si se agrega a cada vaso poco a poco nitrato de zinc sólido, ¿qué concentración de $"Zn"^(2+)$ se requiere para iniciar la precipitación?
+
+b) Si se agrega a cada vaso poco a poco nitrato de zinc hasta que $[#"Zn"^(2+)] = 0","0015$ M, ¿qué concentración de $"OH"^-$, $"CO"_3^(2-)$ y $"CN"^-$ quedará en solución, esto es, sin precipitar? Ignore el cambio de volumen por adición del sólido.
+
+]
+
+#figure(
+  image("/files/images/ej40a.png", width: 100%))
+
+  #figure(
+  image("/files/images/ej40b.png", width: 50%))
+
+]
+
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+
+Calcule la solubilidad molar del $"Ag"_2"CrO"_4$ en:
+
+a) Agua pura
+
+b) $"AgNO"_3$ 0,01 M
+
+c) $"K"_2"CrO"_4$ 0,01 M
+
+]
+
+#figure(
+  image("/files/images/2P/ej67a.png", width: 100%))
+
+  #figure(
+  image("/files/images/2P/ej67b.png", width: 50%))
+
+]
+
+
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+
+Calcular cuántos moles de $"NH"_4"Cl"$ sólido se deben agregar a 100 mL de solución 0,2 M de $"NH"_3$ para que el pH disminuya en tres unidades. ¿En esta última solución precipita $"Mg"("OH")_2$ cuando se disuelven 0,01 mol de $"MgCl"_2$ por litro de solución?
+
+*Datos:* $K_"ps" thin "Mg"("OH")_2 = 1","1 dot 10^(-11)$
+
+]
+
+#figure(
+  image("/files/images/2P/ej23.png", width: 100%))
+
+]
+
+
+#box(stroke: 1pt, inset: 4pt, radius: 0pt, width: auto)[
+#box(stroke: 0pt, inset: 6pt, radius: 4pt, width: 100%, fill: rgb(210,210,210))[  
+
+¿Cuántos moles por litro de $"Ca"^(2+)$ quedan sin precipitar cuando a 1 L de solución 0,1 M de $"CaCl"_2$ se agrega suficiente $"Na"_2"CO"_3(s)$ para que la concentración de $"CO"_3^(2-)$ libre sea 0,01 M? ¿Cuántos moles de $"Ca"^(2+)$ precipitan?
+
+*Datos:* $K_"ps" ("CaCO"_3) = 4","8 dot 10^(-9)$
+
+]
+
+#figure(
+  image("/files/images/2P/ej33.png", width: 70%))
+
+]
+

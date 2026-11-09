@@ -150,17 +150,13 @@ Resumen por Ignacio Sammartino \
 
 // 2do Parcial
 
-//#pagebreak()
-//#include "files/Termodinamica.typ"
+#pagebreak()
+#include "files/Termodinamica.typ"
 
 #pagebreak()
 #include "files/Electroquimica.typ"
 
-//#pagebreak()
-//#include "files/Precipitacion.typ"
-
-
-/*
 #pagebreak()
 #include "files/Precipitacion.typ"
-*/
+
+
